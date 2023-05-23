@@ -130,7 +130,7 @@ NUM_ROUNDS = 5
 
 puts board.board
 
-(1...NUM_ROUNDS).each do |i|
+(1..NUM_ROUNDS).each do |i|
   player1.choose_square(player1.name)
   puts board.board
   if player1.winner?(player1.piece)
